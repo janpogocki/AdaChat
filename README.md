@@ -23,7 +23,7 @@ Działanie klienta polega przede wszystkim na zebraniu podstawowych informacji, 
 
 ## Diagram kooperacji UML
 
-![uml](https://github.com/janpogocki/AdaChat/img/adachat_uml.png "uml")
+![uml](img/adachat_uml.png "uml")
 
 ## Informacje o stosowanych pakietach zewnętrznych
 
@@ -41,11 +41,11 @@ Obsługa serwera nie wymaga dodakowych akcji, obsługa klienta jest intuicyjna.
 
 ## Przykłady
 
-![screen1](https://github.com/janpogocki/AdaChat/img/adachat_s1.png "screen1")
+![screen1](img/adachat_s1.png "screen1")
 
-![screen2](https://github.com/janpogocki/AdaChat/img/adachat_s2.png "screen2")
+![screen2](img/adachat_s2.png "screen2")
 
-![screen3](https://github.com/janpogocki/AdaChat/img/adachat_s2.png "screen2")
+![screen3](img/adachat_s2.png "screen2")
 
 ## Możliwe rozszerzenia programu
 
