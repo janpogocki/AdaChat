@@ -49,9 +49,7 @@ Obsługa serwera nie wymaga dodakowych akcji, obsługa klienta jest intuicyjna.
 
 ## Możliwe rozszerzenia programu
 
-- Jednoczesne prowadzenie konwersacji na wielu kanałach
+- Jednoczesne prowadzenie wielu konwersacji na wielu kanałach, w jednym terminalu (możliwość przełączania się pomiędzy nimi)
 
 ## Ograniczenia programu
 
-- Ograniczona liczba połączeń przychodzących
-- Ograniczona liczba pokoi
