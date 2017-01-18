@@ -53,3 +53,4 @@ Obsługa serwera nie wymaga dodakowych akcji, obsługa klienta jest intuicyjna.
 
 ## Ograniczenia programu
 
+- Ograniczone możliwości drukowania informacji w terminalu
