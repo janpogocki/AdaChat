@@ -292,14 +292,15 @@ end splitString;
 		Put_Line("");
 		Put_Line("Podaj swój nick:");
 
-		while nick = Null_Unbounded_String or nick = To_Unbounded_String("MAIN") or nick = To_Unbounded_String("GROUP" or nick = To_Unbounded_String("INFO") loop
+		while nick = Null_Unbounded_String or nick = To_Unbounded_String("MAIN") or nick = To_Unbounded_String("GROUP") or nick = To_Unbounded_String("INFO") loop
 			Put("> ");
 			Get_Line (nick50, nick_int);
 			nick := To_Unbounded_String(Trim(nick50,Both));
 			
-			if nick = Null_Unbounded_String or nick = To_Unbounded_String("MAIN") or nick = To_Unbounded_String("GROUP" or nick = To_Unbounded_String("INFO") then
+			if nick = Null_Unbounded_String or nick = To_Unbounded_String("MAIN") or nick = To_Unbounded_String("GROUP") or nick = To_Unbounded_String("INFO") then
 				Put_Line("Niepoprawny nick. Spróbuj ponownie");
 				Put_Line("");
+				nick50(5) := ' ';
 			end if;
 		end loop;
 
